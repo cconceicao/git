@@ -1,0 +1,22 @@
+#### HOW TO
+# 1. Check current settings
+# Open .gitconfig file: `git config --global --edit`
+# Check commit message template file location on [commit] > template
+
+# 2.Update template
+# Open the commit message template file: `open file_location`
+
+# 3. Update the file (.gitmessage)
+
+
+#### COMMIT MESSAGE
+# Title: [feat/fix/chore]: Summary, imperative, start upper case, don't end with a period
+# No more than 70 chars.
+
+# Add blank line between title and body.
+
+# Body: Explain what and why (not how).
+
+# Add blank line between body and footer.
+
+# Footer: Include task ID (Jira issue).
