@@ -1,0 +1,11 @@
+# Open file
+# open ~/.gitconfig
+
+# [alias]
+graph = log --oneline --graph --decorate
+ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+recent-br = !git branch --sort=-committerdate | head
+gco = git checkout
+gco-dev = git checkout develop
+gt = git fetch
